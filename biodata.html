@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="biodata.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a><h2 class="logo">Gery Tv</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="biodata.html">Biodata</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="card">
+            <div class="card-image">
+              <img src="Gambar/windowsxp1.jpg" alt="">
+            </div>
+            <div class="profile-image">
+              <img src="Gambar/gery4.jpeg" alt="">
+            </div>
+            <div class="card-content">
+              <h3>Biografi</h3>
+              <p>Nama saya Yokogeri Abdullah Wahid. Saya lahir tanggal 17 Agustus 2002 di Makassar. Saya adalah anak pertama dari empat bersaudara. Kemudian ibu saya adalah seorang ibu rumah tangga, sedangkan ayah saya adalah seorang tentara.</p><br>
+              <p>Setelah itu, pada tahun 2009 di usia 8 tahun, saya melanjutkan ke sekolah di sebuah SD yang tidak jauh dari komplek perumahan saya, yaitu SD Inpres Kassi-Kassi. Sejak sekolah, saya selalu berusaha mencari sesuatu yang baru, karena lingkungan sekolah tidak jauh dari rumah.</p><br>
+              <p>Setelah lulus SD, pda tahun 2015 saya mendaftar ke SMP Negeri 40 Makassar. Pada tingkat ini, saya mencoba untuk memperoleh keterampilan non-akademik dengan berpartisipasi dalam kegiatan Pramuka.</p><br>
+              <p>Pada tahun 2018 saya mendaftar ke SMKN 10 Makassar, salah satu SMK Negeri di Makassar, adalah tempat saya bersekolah setelah lulus dari SMP. Ini adalah waktu yang menyenangkan sebagai seorang remaja dan saya mengikuti ekstrakulikuler yaitu ERC (Electronic Robotic Comunity).</p><br>
+              <p>Saya mengalami perubahan sikap dan, tentu saja, perubahan teknologi pada saat itu mempengaruhi saya. Di masa penerimaan mahasiswa baru, saya mencoba mengikuti SBMPTN dan mendaftar di Univeritas Negeri Makassar dan Alhamdulillah saya berhasil lulus di Jurusan Teknik Informatika Dan Komputer Prodi Teknik Komputer. Sampai sekarang saya telah menginjak semester 3 di UNM.</p><br>
+              <p>Sekian, perkenalan diri dari saya. Sekian Terima kasih.</p><br>
+              <p>Matur Nuwun</p><br>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

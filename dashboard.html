@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a><h2 class="logo">Gery Tv</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="biodata.html">Biodata</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="card">
+            <div class="card-image">
+              <img src="Gambar/ruok2.jpg" alt="">
+            </div>
+            <div class="profile-image">
+              <img src="Gambar/Gery3.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <h3>Yokogeri Abdullah Wahid</h3>
+              <p>Saya dari kelas TEKOM A 2021 dengan NIM 210210501039. Hobi saya adalah Main Game dan Membaca Buku. Dan Cita-cita saya ingin menjadi Programer dan Professional Player</p>
+            </div>
+            <div class="icons">
+              <a href="https://www.facebook.com/yokogery17" class="fab fa-facebook-f"></a>
+              <a href="https://www.instagram.com/geryy17_" class="fab fa-instagram"></a>
+              <a href="https://wa.me/+6282195167643" class="fab fa-whatsapp"></a>
+            </div>
+          </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
